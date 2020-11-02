@@ -28,3 +28,4 @@ Netcat sending TCP to the tunnel:
 nc 127.0.0.1 54323
 ```
 The data sent through the tunnel is encrypted when entering the tunnel and decrypted on the other end.
+netcat client ---> aestun (54323) ---> aestun (54322) ---> netcat server (54321)
