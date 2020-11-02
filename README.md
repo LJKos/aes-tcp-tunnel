@@ -7,7 +7,7 @@ Usage:
 The 'ip' and 'port' are for clients to connect. The program instance connects to the 'ip to connect' and 'port to connect' which can be the other end of the tunnel for example.
 If no key is provided to the aestun program, it will use a default key. The default key should be used for testing only.
 
-The purpose of this (prototype) program was to test the concept of creating a secure tunnel through a network. The program requires many improvents. For example, the endpoints should be defined by being either a server or a client side endpoint. Currently one way communication is assumed (although communication works both ways).
+The purpose of this (prototype) program was to test the concept of creating a secure tunnel through a network. The program requires many improvements. For example, the endpoints should be defined by being either a server or a client side endpoint. Currently one way communication is assumed (although communication works both ways).
 
 ## Example run
 The program can be used with netcat.
